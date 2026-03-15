@@ -246,7 +246,7 @@ defaultExpireDays	기본 만료일
 
 ERD 파일 위치
 
-src/main/resources/docs/erd.png
+src/main/resources/erd.png
 
 ERD에는 다음 테이블이 포함됩니다.
 
@@ -260,27 +260,7 @@ point_bucket
 
 point_usage_allocation
 
-12. AWS 아키텍처
-
-AWS 아키텍처 이미지
-
-src/main/resources/docs/aws-architecture.png
-
-구성
-
-Client
-↓
-Load Balancer
-↓
-Spring Boot Application
-↓
-RDS Database
-↓
-CloudWatch
-
-※ 본 과제는 로컬 실행을 위해 H2 Database를 사용했습니다.
-
-13. 프로젝트 구조
+12. 프로젝트 구조
     src
     ├─ controller
     ├─ service
@@ -292,7 +272,7 @@ CloudWatch
     └─ docs
     ├─ erd.png
     └─ aws-architecture.png
-14. 개선 가능 사항
+13. 개선 가능 사항
 
 추가적으로 다음 기능을 개선할 수 있습니다.
 
@@ -306,7 +286,7 @@ Redis 캐싱
 
 대용량 데이터 최적화
 
-15. 결론
+14. 결론
 
 본 프로젝트는 단순 잔액 방식이 아닌 적립 단위 기반 포인트 시스템을 구현하여
 
